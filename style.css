@@ -1,0 +1,11 @@
+.borrar {
+    background-color: red; /* Green */
+    border: solid black 1px;
+    color: black;
+    padding: 1px 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 5px;
+}
