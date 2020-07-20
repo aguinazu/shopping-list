@@ -1,11 +1,35 @@
-.borrar {
-    background-color: red; /* Green */
-    border: solid black 1px;
-    color: black;
-    padding: 1px 1px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 13px;
-    border-radius: 5px;
+/* Global */
+
+li {
+    margin: 10px;
 }
+
+/* ul-grid */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+ul {
+    display: grid;
+    margin: 0;
+}
+
+
+
+
+/*  */
+.borrar {
+    font-size: 12px;
+    padding-inline: 1px;
+}
+
+.botones-borrar ul li {
+    list-style: none;
+}
+
+.botones-borrar ul {
+    padding: 0%;
+}
+
